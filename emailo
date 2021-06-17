@@ -1,0 +1,12 @@
+<?php 
+
+$to= "pujan007mm@gmail.com";
+$subject='Forget Password';
+$message='hhahhahaha';
+$headers='From:bookdeals91@gmail.com'
+
+if(mail($to,$subject,$message,$headers))
+{
+	echo "email jo leje";
+}
+?>
